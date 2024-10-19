@@ -1,0 +1,81 @@
+Setting Up a Repository
+Initialize a new Git repository:
+
+bash
+Copy code
+git init
+Clone an existing repository:
+
+bash
+Copy code
+git clone <repository_url>
+Staging and Committing Changes
+Check status of files (to see changes):
+
+bash
+Copy code
+git status
+Add a file to the staging area:
+
+bash
+Copy code
+git add <file_name>
+Add all files to the staging area:
+
+bash
+Copy code
+git add .
+Commit changes with a message:
+
+bash
+Copy code
+git commit -m "your commit message"
+Working with Branches
+Create a new branch:
+
+bash
+Copy code
+git branch <branch_name>
+Switch to a branch:
+
+bash
+Copy code
+git checkout <branch_name>
+Create and switch to a new branch:
+
+bash
+Copy code
+git checkout -b <branch_name>
+Merging and Updating
+Merge a branch into the current branch:
+
+bash
+Copy code
+git merge <branch_name>
+Pull latest changes from remote repository:
+
+bash
+Copy code
+git pull
+Working with Remotes
+Add a remote repository:
+
+bash
+Copy code
+git remote add origin <remote_repository_url>
+Push changes to the remote repository:
+
+bash
+Copy code
+git push origin <branch_name>
+Undo Changes
+Unstage a file (remove from staging area):
+
+bash
+Copy code
+git reset <file_name>
+Revert the latest commit:
+
+bash
+Copy code
+git revert <commit_hash>
